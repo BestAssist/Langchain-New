@@ -14,7 +14,7 @@ def main():
     llm = OpenAI(openai_api_key=api_key, temperature=0.7)
 
     # Query the model
-    prompt = "Give me 5 topics for interesting YouTube videos about Python"
+    prompt = "Give me 5 popular open source projects github url for Langchain"
     result = llm.predict(prompt)
 
     print("=== Generated Topics ===")
